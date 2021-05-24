@@ -37,8 +37,7 @@ namespace MyMath
         private int MyParse(string value)
         {
             int number;
-            try
-            {
+            try {
                 number = int.Parse(value);
             }
             catch (Exception) {
